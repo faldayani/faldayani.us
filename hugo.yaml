@@ -1,0 +1,83 @@
+baseURL: "https://faaldayani.com/"
+title: "Faisal Al-Dayani"
+paginate: 10
+theme: PaperMod
+languageCode: en-us
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Faisal Al-Dayani
+  description: "Personal website — projects, links, and more."
+  author: Faisal Al-Dayani
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: false
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+
+  profileMode:
+    enabled: true
+    title: "Faisal Al-Dayani"
+    subtitle: "Software developer. Building things I find interesting."
+    imageUrl: ""
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: ""
+    buttons:
+      - name: Projects
+        url: projects
+      - name: About
+        url: about
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/faldayani"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/faldayani"
+    - name: email
+      url: "mailto:faisal.aldayani@gmail.com"
+
+  label:
+    text: "faaldayani.com"
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
