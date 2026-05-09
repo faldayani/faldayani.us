@@ -1,4 +1,4 @@
-baseURL: "https://faaldayani.com/"
+baseURL: "https://faldayani.us/"
 title: "Faisal Al-Dayani"
 paginate: 10
 theme: PaperMod
@@ -59,7 +59,7 @@ params:
       url: "mailto:faisal.aldayani@gmail.com"
 
   label:
-    text: "faaldayani.com"
+    text: "faldayani.us"
 
 menu:
   main:
