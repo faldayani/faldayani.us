@@ -2,7 +2,7 @@ baseURL: "https://faldayani.us/"
 title: "Faisal Al-Dayani"
 paginate: 10
 theme: PaperMod
-languageCode: en-us
+locale: en-us
 
 enableRobotsTXT: true
 buildDrafts: false
