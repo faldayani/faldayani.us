@@ -47,6 +47,8 @@ params:
     buttons:
       - name: Projects
         url: projects
+      - name: Blog
+        url: blog
       - name: About
         url: about
 
@@ -67,10 +69,14 @@ menu:
       name: Projects
       url: /projects/
       weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
     - identifier: about
       name: About
       url: /about/
-      weight: 20
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
