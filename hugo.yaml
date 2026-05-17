@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 
 minify:
-  disableXML: true
+  disableXML: false
   minifyOutput: true
 
 params:
@@ -27,7 +27,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: false
+  ShowRssButtonInSectionTermList: true
   UseHugoToc: false
   disableSpecial1stPost: true
   disableScrollToTop: false
